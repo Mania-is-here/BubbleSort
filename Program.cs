@@ -32,9 +32,9 @@
              {
                  Console.Write($"{n} ");
              }
-             Console.ReadLine();
+             Console.ReadLine(); 
 
-            
+
             /*Console.Clear();
             string[] array = { "Apple", "Samsung", "Nokia", "Siemens", "Motorola" };
             foreach (string item in array)
@@ -45,6 +45,28 @@
                 Console.WriteLine(array[array.Length -2]);
 
             }*/
+
+            //Michael
+
+           /* int[] bubbleArray = { 4, 33, 7, 1, 23, 12 };
+
+            Console.WriteLine($" Array vor der sortierung : {string.Join("-", bubbleArray)}");
+
+            for(int elementIndex =0; elementIndex < bubbleArray.Length; elementIndex++)
+            {
+               // Console.WriteLine = (bubbleArray[elementIndex]);
+               for(int sortierSchleife =0; sortierSchleife < bubbleArray.Length; sortierSchleife++)
+                {
+                    if(bubbleArray[sortierSchleife] > bubbleArray[sortierSchleife+1])
+                    {
+                        Console.WriteLine("Der Wert von sortierSchleife ist größer");
+                        int temp = bubbleArray[sortierSchleife +1];
+                        bubbleArray[sortierSchleife +1] = bubbleArray[sortierSchleife];
+                        bubbleArray[sortierSchleife] = temp;
+                    }
+                }
+            }
+            Console.WriteLine($"Sortiert: {string.Join("-", bubbleArray)}"); */
         }
     }
 }
